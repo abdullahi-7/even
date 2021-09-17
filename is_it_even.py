@@ -2,7 +2,7 @@ import time
 def even():
     vari = []
     var = int(input("pick a number"))
-    if var % 2 == 0:
+    if var % 5 == 0:
         vari.append(var)
     else:
         print(f"not even{var}")
@@ -10,7 +10,7 @@ def even():
 def even_number():    
     vari = []
     var = int(input("pick a number"))
-    if var % 2 == 0:
+    if var % 1 == 0:
         vari.append(var)
     else:
         print(f"not even{var}")
@@ -18,7 +18,7 @@ def even_number():
 def even_numb():    
     vari = []
     var = int(input("pick a number"))
-    if var % 2 == 0:
+    if var % 3 == 0:
         vari.append(var)
     else:
         print(f"not even{var}")
@@ -26,7 +26,7 @@ def even_numb():
 def even_numb():    
     vari = []
     var = int(input("pick a number"))
-    if var % 2 == 0:
+    if var % 4 == 0:
         vari.append(var)
     else:
         print(f"not even{var}")
