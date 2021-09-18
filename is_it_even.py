@@ -1,9 +1,9 @@
 import time
 def even():
     vari = []
-    var = int(input("pick a number"))
-    if var % 5 == 0:
-        vari.append(var)
+    number = int(input("pick a number"))
+    if number % 5 == 0:
+        vari.append(number)
     else:
         print(f"not even{var}")
 
