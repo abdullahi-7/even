@@ -5,7 +5,7 @@ def even():
     if number % 5 == 0:
         vari.append(number)
     else:
-        print(f"not even{var}")
+        print(f"not even{number}")
 
     
     vari = []
